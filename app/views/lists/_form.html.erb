@@ -25,7 +25,7 @@
   </div>
   <div class="field">
     <%= f.label :store %><br>
-    <%= f.select :store, options_for_select(%w[market bakery pharmacy]) %>
+    <%= f.select :store, options_for_select(["Great Basin Coop", "Isabells", "Raleys", "Safeway", "Sierra Trading Post", "Target", "Trader Joes", "Whole Foods", "Whole Treats", "Winco"]) %>
   </div>
   <div class="actions">
     <%= f.submit %>
